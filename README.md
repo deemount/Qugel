@@ -1,4 +1,4 @@
-<h1 align="center">Qugel: a Quantum Machine Learning (QML) Library for Kaggle Challenges. (work in progress).</h1>
+<h1 align="center">Qugel: a PennyLane based Quantum Machine Learning (QML) Library for Kaggle Challenges. (work in progress).</h1>
 
 <h1 align="center">
   <img src="https://github.com/BoltzmannEntropy/qugel/blob/master/assets/logo002.png?raw=true" width="80%"></a>
@@ -46,10 +46,12 @@ def Q_quanvol_block_A(q_weights, n_qubits, q_depth):
         qml.RY(q_weights[layer], wires=i)
 ```
 
-## Quantum computing libraries, features etc
+# The Qugel Quantum computing library design philosophy  
 
-
-## Contributing
+# Kaggle Datasets 
+- Seedlings 
+- ISIC melanoma 
+- Brain MRI 
 
 
 ## Citation
@@ -60,7 +62,7 @@ If you find the code or trained models useful, please consider citing:
   author={Kashani, Shlomo},
   title={Qugel2024},
   howpublished={\url{https://github.com/}},
-  year={2020}
+  year={2024}
 }
 ```
 
