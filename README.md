@@ -1,7 +1,7 @@
 <h1 align="center">Qugel: a Quantum Machine Learning (QML) Library for Kaggle Challenges. (work in progress).</h1>
 
 <h1 align="center">
-  <img src="https://github.com/BoltzmannEntropy/qugel/blob/master/assets/logo002.png?raw=true" width="70%"></a>
+  <img src="https://github.com/BoltzmannEntropy/qugel/blob/master/assets/logo002.png?raw=true" width="80%"></a>
 </h1>
 
 
@@ -20,8 +20,14 @@ On telegram: https://t.me/BoltzmannQ
 
 ## About
 
+Until recently, participants in Kaggle were limited to training classical convolutional neural networks (CNNs) on classical computer hardware such as CPUs and GPUs. However, the integration of quantum hardware support in Kaggle has not been realized. Nevertheless, leading quantum computing hardware vendors like IBM and Xanadu have introduced quantum machine learning libraries (QML) and differentiable QNNs that enable automatic differentiation of quantum circuits vis the parameter-shit rule for instance. This development establishes a connection between classical machine learning libraries like PyTorch, which may attract Kaggle contestants and challenges which are still out of reach. For instance, the diagonalization of high-dimensional matrices  on classical hardware becomes impractical beyond a dimension of $10^{11}$.
 
-# Quantum computing libraries, features etc
+The development of Quantum NNs is currently a challenging and unresolved topic, with ongoing research focusing on determining the optimal number of qubits and the impact of quantum layer depth on expressibility and entangling power. Moreover, most existing papers on QML primarily focus on replacing only the fully connected (FC) layer of a pre-trained CNN with a PQC that has learnable parameters, which is a simpler task compared to employing a fully quantum image encoder as we do in this paper.
+
+This raises the question of when Kaggle will incorporate a quantum computing hardware backend into its offerings. In response to this query, our research introduces a new library called $\Psi\langle$Qaggle$\rangle$. By leveraging Variational Quantum Eigensolvers (VQEs) built on PennyLane and PyTorch, this library enables the utilization of Quantum Neural Networks for classification purposes. Qaggle provides support for various QNNs, medical datasets, classical CNNs, and seamlessly integrates all components into an accessible quantum machine learning training pipeline.
+
+
+## Quantum computing libraries, features etc
 
 
 ## Contributing
