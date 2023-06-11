@@ -14,9 +14,12 @@ Qugel
         :alt: Documentation Status
 
 
-<html>
-<img src="https://raw.githubusercontent.com/BoltzmannEntropy/qugel/master/assets/logo002.png" width="991.5" />
-<html/>
+
+<h1 align="center">
+  <img src="https://raw.githubusercontent.com/BoltzmannEntropy/qugel/master/assets/logo002.png" width="50%" />
+</h1>
+
+
 
 QML for Kaggle
 
