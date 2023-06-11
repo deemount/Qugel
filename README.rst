@@ -15,6 +15,7 @@ Qugel
 
 
 
+<img src="https://raw.githubusercontent.com/BoltzmannEntropy/qugel/master/assets/logo002.png" width="991.5" />
 
 QML for Kaggle
 
