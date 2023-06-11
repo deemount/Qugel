@@ -14,7 +14,7 @@
 
 </p>
 
-This work presents ```$\langle$Qugel$\rangle$```, a QML platform which utilizes shallow quantum neural network (QNN) image encoders composed of parametrized quantum circuits (PQCs) for solving categorial image classification challenges.
+This work presents `$\langle$Qugel$\rangle`$, a QML platform which utilizes shallow quantum neural network (QNN) image encoders composed of parametrized quantum circuits (PQCs) for solving categorial image classification challenges.
 
 On telegram: https://t.me/BoltzmannQ
 
