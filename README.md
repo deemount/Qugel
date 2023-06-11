@@ -26,6 +26,25 @@ The development of Quantum NNs is currently a challenging and unresolved topic, 
 
 This raises the question of when Kaggle will incorporate a quantum computing hardware backend into its offerings. In response to this query, our research introduces a new library called $\Psi\langle$Qaggle$\rangle$. By leveraging Variational Quantum Eigensolvers (VQEs) built on PennyLane and PyTorch, this library enables the utilization of Quantum Neural Networks for classification purposes. Qaggle provides support for various QNNs, medical datasets, classical CNNs, and seamlessly integrates all components into an accessible quantum machine learning training pipeline.
 
+```python
+def Q_quanvol_block_A(q_weights, n_qubits, q_depth):
+    for layer in range(q_depth):
+        for i in range(n_qubits):
+            if (n_qubits - i - 1) != i:
+                if i % 2 != 0:
+                    qml.CNOT(wires=[n_qubits - i - 1, i])
+                else:
+                    qml.CNOT(wires=[i, n_qubits - i - 1, ])
+                if (i < n_qubits - 1) and ((n_qubits - i - 1) != i):
+                    qml.CRZ(q_weights[layer], wires=[i, (i + 1) % n_qubits])
+                    # Prevent WireError: Wires must be unique; got [0, 0].
+                    if i % 2 == 0:
+                        qml.CNOT(wires=[n_qubits - i - 1, i])
+                    else:
+                        qml.CNOT(wires=[i, n_qubits - i - 1, ])
+                        qml.Hadamard(n_qubits - i - 1)
+        qml.RY(q_weights[layer], wires=i)
+```
 
 ## Quantum computing libraries, features etc
 
