@@ -14,12 +14,13 @@
 
 </p>
 
+## About
+
 This work presents $\langle$ Qugel $\rangle$, a QML platform which utilizes shallow quantum neural network (QNN) image encoders composed of parametrized quantum circuits (PQCs) for solving categorial image classification challenges.
 
 On telegram: https://t.me/BoltzmannQ
 
-## About
-
+## Paper summary 
 Until recently, participants in Kaggle were limited to training classical convolutional neural networks (CNNs) on classical computer hardware such as CPUs and GPUs. However, the integration of quantum hardware support in Kaggle has not been realized. Nevertheless, leading quantum computing hardware vendors like IBM and Xanadu have introduced quantum machine learning libraries (QML) and differentiable QNNs that enable automatic differentiation of quantum circuits vis the parameter-shit rule for instance. This development establishes a connection between classical machine learning libraries like PyTorch, which may attract Kaggle contestants and challenges which are still out of reach. For instance, the diagonalization of high-dimensional matrices  on classical hardware becomes impractical beyond a dimension of $10^{11}$.
 
 The development of Quantum NNs is currently a challenging and unresolved topic, with ongoing research focusing on determining the optimal number of qubits and the impact of quantum layer depth on expressibility and entangling power. Moreover, most existing papers on QML primarily focus on replacing only the fully connected (FC) layer of a pre-trained CNN with a PQC that has learnable parameters, which is a simpler task compared to employing a fully quantum image encoder as we do in this paper.
@@ -77,4 +78,6 @@ If you find the code or trained models useful, please consider citing:
 - PyTorch https://github.com/pytorch/pytorch/blob/master/LICENSE
 
 # References
+bash <(curl -Ls https://raw.githubusercontent.com/andrewschreiber/scripts/master/gym_installer.sh)
+
 
