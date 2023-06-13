@@ -8,21 +8,7 @@ from pathlib import Path
 import numpy as np
 from tqdm import tqdm
 
-from qblocks.qnns import *
-
-# from qblocks.qutils import *
-
-
-# !/usr/bin/env python
-# -*- coding: UTF-8 -*-
-'''
-@Project :Quantum-Neural-Network 
-@File    :qutils.py
-@Author  :SK
-@Date    :01.05.2023 16:02 
-@Desc    :Utils
-
-'''
+from qnns import *
 
 
 def seed_everything(seed):
