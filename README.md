@@ -18,6 +18,12 @@
 
 This work presents $\langle$ Qugel $\rangle$, a QML platform which utilizes shallow quantum neural network (QNN) image encoders composed of parametrized quantum circuits (PQCs) for solving categorial image classification challenges.
 
+Quantum machine learning is commonly implemented as a hybrid quantum-classical algorithm in British English. 
+In this approach, only a portion of the calculation is performed on a quantum computer. 
+A classical algorithm utilizes a quantum circuit as a function, taking classical inputs and producing classical outputs. 
+In the context of quantum machine learning, the classical model is replaced by a quantum circuit. 
+However, the optimization of the parameter vector 𝜃 is conducted using a **classical algorithm**. To accomplish this, a variational quantum circuit is employed.
+
 On telegram: https://t.me/BoltzmannQ
 
 ## Paper summary 
