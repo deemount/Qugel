@@ -1,4 +1,4 @@
-<h1 align="center">Qugel: a PennyLane based Quantum Machine Learning (QML) Library for Kaggle Challenges. (work in progress).</h1>
+<h1 align="center">Qugel: a PennyLane based Quantum Machine Learning (QML) Library for Kaggle Challenges. (WIP and broken dev code until November 2023).</h1>
 
 <h1 align="center">
   <img src="https://github.com/BoltzmannEntropy/qugel/blob/master/assets/logo002.png?raw=true" width="80%"></a>
